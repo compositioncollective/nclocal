@@ -132,10 +132,9 @@ h4 {
 	margin-top: 0;
 }
 
-.entry .entry-content p {
+.post .entry-content p,
+.post .entry-content li {
 	font-size: 0.8em;
-	margin-top: 12px;
-	margin-bottom: 12px;
 }
 
 figcaption {
@@ -623,8 +622,6 @@ body:not(.is-block-theme) div.wp-block-columns.community-host {
 	gap: 16px;
 }
 
-.community-header {}
-
 /**
  * Archive
  */
@@ -716,3 +713,4 @@ body:not(.is-block-theme) div.wp-block-columns.community-host {
 #newspack-reader__account-link {
 	display: none;
 	
+
